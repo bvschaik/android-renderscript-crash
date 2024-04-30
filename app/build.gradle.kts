@@ -10,8 +10,8 @@ android {
     defaultConfig {
         applicationId = "com.github.bvschaik.renderscriptcrash"
         minSdk = 24
-        targetSdk = 34
-        //targetSdkPreview = "VanillaIceCream"
+        //targetSdk = 34
+        targetSdkPreview = "VanillaIceCream"
         versionCode = 1
         versionName = "1.0"
 
