@@ -17,7 +17,7 @@ Note how it says API level **36**, while VanillaIceCream is expected to be **35*
 
 ## Steps to reproduce
 
-1. Run app
+1. Run app on a VanillaIceCream emulator/phone
 2. Hit the "invert image" button
 
 Expected result: image is inverted
