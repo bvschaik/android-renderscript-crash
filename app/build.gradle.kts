@@ -10,7 +10,8 @@ android {
     defaultConfig {
         applicationId = "com.github.bvschaik.renderscriptcrash"
         minSdk = 24
-        targetSdkPreview = "VanillaIceCream"
+        targetSdk = 34
+        //targetSdkPreview = "VanillaIceCream"
         versionCode = 1
         versionName = "1.0"
 
@@ -32,6 +33,11 @@ android {
     }
     kotlinOptions {
         jvmTarget = "1.8"
+    }
+
+    buildFeatures {
+        renderScript = true
+        viewBinding = true
     }
 }
 
